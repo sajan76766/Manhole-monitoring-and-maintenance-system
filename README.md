@@ -48,6 +48,7 @@
  a LoRa-enabled communication hub, cloud-based data processing with machine learning,
  and an intelligent decision-support module at the edge. This architecture ensures reliable  monitoring, predictive analysis, and robust system performance. The methodology is
  outlined in sequential steps as follows
+ 
   System Initialization: The ESP32-based sensor node powers up and activates all
  onboard sensors (flow, depth, pressure, turbidity). Replica nodes equipped with
  switches and valves are also initialized to simulate blockage scenarios for testing.
