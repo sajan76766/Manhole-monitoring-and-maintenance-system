@@ -44,7 +44,7 @@
  systems, and is put forth for predictive maintenance and flood prevention in smart cities.
  # METHODOLOGY
  ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot%202025-11-05%20175108.png)
-   The system is designed with a multi-layered framework that integrates sensing units,
+ The system is designed with a multi-layered framework that integrates sensing units,
  a LoRa-enabled communication hub, cloud-based data processing with machine learning,
  and an intelligent decision-support module at the edge. This architecture ensures reliable  monitoring, predictive analysis, and robust system performance. The methodology is
  outlined in sequential steps as follows
