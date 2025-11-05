@@ -96,3 +96,4 @@
  Beyond detection performance, the system also proved ef f icient, scalable, and
  energy-conscious. The LoRa-based com munication offered a wide coverage area with
  minimal power usage, making it ideal for distributed urban deployment. The modular
+ ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot_2025-09-05-11-12-43-610_com.whatsapp.jpg)
