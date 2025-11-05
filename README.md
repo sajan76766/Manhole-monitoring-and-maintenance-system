@@ -44,13 +44,13 @@
  systems, and is put forth for predictive maintenance and flood prevention in smart cities.
  # METHODOLOGY
  ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot%202025-11-05%20175108.png)
-  This initiative aims to improve manhole safety through an intelligent monitoring
+  This is the first paragraph. This initiative aims to improve manhole safety through an intelligent monitoring
  system capable of identifying unauthorized access and potential overflow situations.
  The approach entails the development of a compact embedded system that gathers data  from various sensors, processes this information using a micro controller, and presents
  the findings on a web-based platform via Wi-Fi cloud communication. The overall
  strategy includes selecting suitable hardware components, integrating them with
  embedded firmware, and facilitating real-time monitoring through the cloud.
- The system commences with an appropriate power source, such as a battery or an AC
+This is the second paragraph. The system commences with an appropriate power source, such as a battery or an AC
 DC adapter, which supplies electrical energy to operate the entire hardware setup. Since
  various components have different voltages, voltage regulators are used to deliver constant
  and appropriate power. A 5.5V regulator provides power for components that have a high
