@@ -48,4 +48,26 @@
  a LoRa-enabled communication hub, cloud-based data processing with machine learning,
  and an intelligent decision-support module at the edge. This architecture ensures reliable  monitoring, predictive analysis, and robust system performance. The methodology is
  outlined in sequential steps as follows
- 
+  System Initialization: The ESP32-based sensor node powers up and activates all
+ onboard sensors (flow, depth, pressure, turbidity). Replica nodes equipped with
+ switches and valves are also initialized to simulate blockage scenarios for testing.
+ Sensor Data Acquisition: The primary node continuously collects measurements of
+ f low, water depth, pressure, and turbidity from the man hole. Replica nodes generate
+ synthetic blockage signals that mimic fault conditions, ensuring reliable validation of
+ system responses.
+ Data Filtering and Fusion: Raw sensor values are processed using Kalman or expo
+ nential moving average (EMA) filters to reduce noise and improve stability. Derived
+ features such as rate of level change and flow-to-level ratio are calculated for better
+ interpretation.
+ Node Health Monitoring: Each node is assigned a trust score based on factors Fig. 1.
+ blockdiagram like packet delivery rate, RSSI, SNR, and communication reliability. The
+ score is updated dynamically so that faulty or silent nodes have less influence on system
+ decisions.
+ Anomaly Detection: A lightweight machine learning model analyzes fused sensor
+ features to detect abnormal trends. This helps iden tify early signs of blockages,
+ contamination, or sudden water flow disruptions.
+ Decision-Making and Actuation: The LoRa hub combines risk probability, anomaly
+ scores, and node trust to compute an overall risk score. Based on this, relay-controlled
+ solenoid valves are actuated in stages: valves remain off under low risk, pulse open during
+ moderate risk, cycle during high risk, and fully open under critical conditions with alert
+ generation.
