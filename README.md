@@ -97,3 +97,15 @@
  energy-conscious. The LoRa-based com munication offered a wide coverage area with
  minimal power usage, making it ideal for distributed urban deployment. The modular
  ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot_2025-09-05-11-12-43-610_com.whatsapp.jpg)
+ # CONCLUSION
+ This paper presented a smart manhole monitoring system that combines IoT sensing,
+ LoRa communication, cloud-based machine learning, and a local AIML fallback
+ mechanism. The design moves beyond traditional threshold-based systems by offering
+ predictive intelligence and ensuring continued operation even during connectivity loss.
+ Prototype evaluation confirmed that the system can accurately detect blockages, reduce
+ false alarms, and maintain reliability under adverse conditions.
+ Future work will involve scaling the system to cover larger drainage networks,
+ improving the ML models with richer datasets, and integrating renewable energy
+ solutions for long term autonomous operation. In addition, collaboration with
+ municipal authorities could enable integration into broader smart city dashboards,
+ supporting proactive urban flood man agement.
