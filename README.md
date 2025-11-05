@@ -23,3 +23,10 @@
  disruptions and public health risks. Also we are to present a cost effective, scalable and
  resilient solution which will run continuously even during network failures which makes
  it a perfect fit for modern smart city infrastructure.
+# Scope
+ This project we are designing, developing and deploying an intelligent manhole monitoring
+ system which will use IoT, LoRa communication, and Machine Learning. We will have
+ real time sensing of flow, depth, pressure, and turbidity; wireless data transfer; cloud
+ based prediction models; and an edge solution for when out of the range operation. Also
+ we will be including hydraulic control via solenoid valves for active flow diversion. This  solution is to scale for wide area urban deployment, will adapt to many different drainage
+ systems, and is put forth for predictive maintenance and flood prevention in smart cities.
