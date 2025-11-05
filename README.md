@@ -88,6 +88,7 @@
  pattern was detected. The communication latency remained minimal, allowing the system
  to respond within seconds during critical scenarios, which is crucial for timely intervention
  in drainage networks.
+ 
  A prototype was developed using one real sensor node and two replica nodes. The
  system was evaluated in terms of detection accuracy, false alarm rate, response time,
  and reliability during simulated network failures. Initial results showed that the system
@@ -98,9 +99,16 @@
  intelligent fallback improves both accuracy and resilience. The proposed design not only
  responds to emer gencies but actively prevents them by anticipating overflow risks in
  advance.
+ 
  Beyond detection performance, the system also proved ef f icient, scalable, and
  energy-conscious. The LoRa-based com munication offered a wide coverage area with
- minimal power usage, making it ideal for distributed urban deployment. The modular
+ minimal power usage, making it ideal for distributed urban deployment. The modular  structure allowed for additional nodes or sensors to be incorporated without altering the
+ main architecture. Cloud based visualization tools provided clear insights into system
+ performance, enabling authorities to monitor conditions re motely and act before
+ critical failures occurred. Overall, the results validate the practicality of the proposed
+ design as a reliable and intelligent solution for modern urban drainage sys tems,
+ combining IoT, machine learning, and adaptive decision making to create a safer and
+ smarter city infrastructure.
  
  ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot_2025-09-05-11-12-43-610_com.whatsapp.jpg)
  # CONCLUSION
