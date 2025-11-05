@@ -42,4 +42,4 @@
  based prediction models; and an edge solution for when out of the range operation. Also
  we will be including hydraulic control via solenoid valves for active flow diversion. This  solution is to scale for wide area urban deployment, will adapt to many different drainage
  systems, and is put forth for predictive maintenance and flood prevention in smart cities.
- ![Alt text](images/diagram.png)
+ ![Alt text]([images](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot_2025-09-05-11-12-43-610_com.whatsapp.jpg)/diagram.png)
