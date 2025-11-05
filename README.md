@@ -1,5 +1,17 @@
 #  Smart Anti-Overflow Manhole System with Flow Diversion and Blockage Management using Real-Time IoT
-# Overview
+ # Problem Statement
+ Urbaning communities report to see an increase in what we may term local flooding
+ which is a result of manhole overflows from blockages, sediment accumulation and also
+ from poor drainage maintenance. Presently we see that which which we term traditional
+ systems do what they can which is to do manual inspections and wait for issues to become
+ critical before they react which in large part is too little too late. Also we see that present
+ wireless solutions have issues with range, reliability and energy efficiency and that the
+ cloud based systems’ performance breaks down at key times like heavy rain which in turn
+ causes loss of connection. There is a very present need for a which we may term a real
+ time and autonomous monitoring system that which is able to detect the early signs of a
+ blockage, to predict overflow issues and to take preventative action even in the absence
+ of a network.
+ # Overview
  The project outlines a smart manhole monitoring and overflow prevention system for
  urban flood management. This system design integrates real-time sensors, machine
  learning, and hydraulics to identify, predict, and prevent manhole overflows. The
