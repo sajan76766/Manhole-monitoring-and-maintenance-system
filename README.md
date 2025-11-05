@@ -71,3 +71,28 @@
  solenoid valves are actuated in stages: valves remain off under low risk, pulse open during
  moderate risk, cycle during high risk, and fully open under critical conditions with alert
  generation.
+ # RESULTS AND DISCUSSION
+ The prototype of the real-time manhole intrusion and over f low detection system was
+ successfully developed and tested under controlled environmental conditions. The setup
+ included one main sensor node equipped with ultrasonic, pressure, flow, and turbidity
+ sensors, along with two replica nodes containing manual switches and valves to simulate
+ blockage events. The data collected by the ESP32 nodes were transmitted to a central
+ LoRa-based hub, which processed and forwarded the information to the cloud for analysis.
+ During testing, the system was able to continuously capture real-time variations in flow,
+ depth, and pressure, and react promptly through relay activation whenever an abnormal
+ pattern was detected. The communication latency remained minimal, allowing the system
+ to respond within seconds during critical scenarios, which is crucial for timely intervention
+ in drainage networks.
+ A prototype was developed using one real sensor node and two replica nodes. The
+ system was evaluated in terms of detection accuracy, false alarm rate, response time,
+ and reliability during simulated network failures. Initial results showed that the system
+ achieved more than 90in detecting blockages, while false alarms were reduced by nearly
+ 30AIML ensured uninterrupted operation during packet loss, maintaining over 85was
+ unavailable. LoRa communication performed consistently, with packet delivery rates
+ above 95The results demonstrate that integrating IoT sensing with predictive ML and
+ intelligent fallback improves both accuracy and resilience. The proposed design not only
+ responds to emer gencies but actively prevents them by anticipating overflow risks in
+ advance.
+ Beyond detection performance, the system also proved ef f icient, scalable, and
+ energy-conscious. The LoRa-based com munication offered a wide coverage area with
+ minimal power usage, making it ideal for distributed urban deployment. The modular
