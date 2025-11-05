@@ -44,5 +44,41 @@
  systems, and is put forth for predictive maintenance and flood prevention in smart cities.
  # METHODOLOGY
  ![image alt](https://github.com/sajan76766/Manhole-monitoring-and-maintenance-system/blob/main/Screenshot%202025-11-05%20175108.png)
+  This initiative aims to improve manhole safety through an intelligent monitoring
+ system capable of identifying unauthorized access and potential overflow situations.
+ The approach entails the development of a compact embedded system that gathers data  from various sensors, processes this information using a micro controller, and presents
+ the findings on a web-based platform via Wi-Fi cloud communication. The overall
+ strategy includes selecting suitable hardware components, integrating them with
+ embedded firmware, and facilitating real-time monitoring through the cloud.
+ The system commences with an appropriate power source, such as a battery or an AC
+DC adapter, which supplies electrical energy to operate the entire hardware setup. Since
+ various components have different voltages, voltage regulators are used to deliver constant
+ and appropriate power. A 5.5V regulator provides power for components that have a high
+ voltage requirement, while a 3.3V regulator is specifically used for the ESP8266 micro
+ controller. This setup ensures all the modules receive the optimum working voltages and
+ thus avoids damage or malfunctioning. The ESP8266 micro controller, chosen for its
+ integrated Wi-Fi feature and compatibility with the Arduino IDE programming.
+ The processed information is wirelessly sent to a cloud server using the ESP8266’s
+ Wi-Fi portion. This allows for continuous or timed transmission of the sensor readout.
+ The clouds server is configured to accept and hold the incoming data, making them
+ available via a web dashboard. The web interface is designed using HTML and CSS for
+ presentation and layout, while backend processing is handled with Java (JSP/Servlets)
+ to process data and render dynamic web content. JavaScript can also be used to add
+ interactivity and enable live updates without the need for a full webpage reload.
+ This cloud-hosted solution enables municipal staff and responsible personnel to
+ monitor the state of the manhole system remotely. The webpage features warnings
+ prominently in front of users, enabling them to easily detect abnormal conditions like
+ an open cover or high water levels. This feature makes it possible for officials to respond
+ promptly and avoid accidents or flooding and also improve the general safety of the
+ city’s infrastructures. During the course of development, jumper wires and connecting
+ cables are used to provide necessary electrical connections between all the components.
+ During the prototyping stage, these wires help in setting up and testing the layout of
+ the circuit before installing the system in a more rugged, weather-tight enclosure.
+ The methodology employed in this project makes the manhole monitoring system
+ efficient and pragmatic. By using basic yet highly dependable hardware components
+ combined with cutting-edge software processing and wireless connectivity, the system
+ provides accurate and timely information to the relevant authorities. This methodology
+ gives a cost-effective and scalable solution for the management of smart city
+ infrastructure, especially regarding urban drainage and safety monitoring.
 
  
